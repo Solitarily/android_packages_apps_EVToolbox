@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+ * Copyright (C) 2013 The Evervolv Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ -->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+        <!-- Generic Strings, multiple uses -->
+    <string name="app_name">工具箱</string>
+    <string name="apply">应用</string>
+    <string name="okay">确定</string>
+    <string name="cancel">取消</string>
+    <string name="reboot">重启</string>
+    <string name="later">稍后</string>
+    <string name="flash">Flash</string>
+
+        <!-- Main app strings ( immediate tabs ) -->
+    <string name="tab_title_lockscreen">锁屏</string>
+    <string name="tab_title_statusbar">状态栏</string>
+    <string name="tab_title_interface">其它</string>
+    <string name="tab_title_performance">性能</string>
+
+        <!-- Lockscreen -->
+    <string name="pref_lockscreen_style_title">风格</string>
+    <string name="pref_lockscreen_style_summary">选择你的锁屏风格</string>
+
+        <!-- Lockscreen >> Main-->
+    <string name="pref_lockscreen_main_message_title">信息</string>
+    <string name="pref_lockscreen_main_message_summary">更改在锁屏显示的信息</string>
+    <string name="pref_lockscreen_main_message_dialog_title">输入要显示的信息</string>
+    <string name="pref_lockscreen_main_background_title">背景</string>
+    <string name="pref_lockscreen_main_background_color_fill">颜色填充</string>
+    <string name="pref_lockscreen_main_background_custom_image">自定义图片</string>
+    <string name="pref_lockscreen_main_background_transparent">透明</string>
+    <string name="pref_lockscreen_main_background_default_wallpaper">默认壁纸</string>
+    <string name="pref_lockscreen_main_background_result_successful">背景成功更改</string>
+    <string name="pref_lockscreen_main_background_result_not_successful">背景无法改变</string>
+    <string name="pref_lockscreen_main_background_dialog_title">选择颜色</string>
+
+        <!-- Lockscreen >> Styles-->
+    <string name="pref_lockscreen_style_picker_unavailable">该设备无法使用这种风格\n请选择其他风格</string>
+    <string name="pref_lockscreen_style_picker_caption_jellybean">Jellybean</string>
+    <string name="pref_lockscreen_style_picker_caption_ics">Ice Cream Sandwich</string>
+    <string name="pref_lockscreen_style_picker_caption_gingerbread">Gingerbread</string>
+    <string name="pref_lockscreen_style_picker_caption_eclair">Eclair</string>
+
+        <!-- GalleryPickerPreference -->
+    <string name="item_count">%1$d/%2$d</string>
+
+
+
+
+
+            <!-- NEED TO UPDATE -->
+
+        <!-- Interface -->
+    <string name="interface_title">界面</string>
+    <string name="pref_interface_title_head">界面</string>
+    <string name="pref_interface_category_tabletdpi">Tablet &amp; DPI</string>
+    <string name="pref_interface_density_picker_title">自定义显示密度</string>
+    <string name="pref_interface_density_picker_summary">当前 dpi: %1$d\n平板推荐 dpi: %2$d\n默认 dpi: %3$d</string>
+    <string name="pref_interface_density_change_recommended_title">推荐显示密度</string>
+    <string name="pref_interface_density_change_recommended_text">调整此设备的显示密度。建议使用下面的设置。</string>
+    <string name="pref_interface_reboot_required_title">需要重启！</string>
+    <string name="pref_interface_reboot_required_text">此设置需要重新启动才能生效.\n\n警告：DPI调整，尽量保持较小幅度。</string>
+
+        <!-- Interface >> Buttons -->
+    <string name="pref_trackball_wake_toggle_title">轨迹球唤醒</string>
+    <string name="pref_trackball_wake_toggle_summary">通过按下轨迹球唤醒设备</string>
+    <string name="pref_volume_wake_toggle_title">音量键唤醒</string>
+    <string name="pref_volume_wake_toggle_summary">通过按下音量+或音量-唤醒设备</string>
+    <string name="pref_lockscreen_music_controls_volbtn_title">音量键音乐控制</string>
+    <string name="pref_lockscreen_music_controls_volbtn_summary">当屏幕关闭时, 长按音量键即可改变音乐曲目</string>
+        <!-- Interface >> Rotation -->
+    <string name="pref_interface_rotation_title">旋转设置</string>
+    <string name="pref_interface_rotation_summary">切换特定旋转角度</string>
+    <string name="pref_rotation_0_title">0 度</string>
+    <string name="pref_rotation_90_title">90 度</string>
+    <string name="pref_rotation_180_title">180 度</string>
+    <string name="pref_rotation_270_title">270 度</string>
+        <!-- Interface >> Power Menu -->
+    <string name="pref_interface_power_menu_title">电源菜单设置</string>
+    <string name="pref_interface_power_menu_summary">自定义您的电源菜单</string>
+    <string name="pref_power_menu_hide_screenshot_title">隐藏屏幕截图选项</string>
+    <string name="pref_power_menu_hide_sound_title">隐藏声音选项</string>
+    <string name="pref_power_menu_hide_airplane_mode_title">隐藏飞行模式</string>
+    <string name="pref_power_menu_hide_reboot_menu_title">隐藏重启菜单</string>
+    <string name="pref_power_menu_screenshot_delay_title">设置延迟截图</string>
+
+        <!-- Statusbar -->
+    <string name="statusbar_title">状态栏</string>
+    <string name="pref_statusbar_title_head">状态栏</string>
+        <!-- Statusbar >> Icons -->
+    <string name="pref_statusbar_icons_title">状态栏图标</string>
+    <string name="pref_statusbar_icons_summary">设置来控制状态栏图标</string>
+        <!-- Statusbar >> Icons >> Signal Sixbar -->
+    <string name="pref_statusbar_sixbar_signal_title">使用六格信号图标</string>
+    <string name="pref_statusbar_sixbar_signal_summary">选择是否显示六格信号强度图标(修改显示)</string>
+        <!-- Statusbar >> Icons >> Battery Style -->
+    <string name="pref_statusbar_batt_style_title">电池风格</string>
+    <string name="pref_statusbar_batt_style_summary">选择电池图标风格</string>
+
+        <!-- aFileDialog -->
+    <string name="daidalos_hello">Hello World!</string>
+    <string name="daidalos_app_name">aFileDialog</string>
+    <color name="daidalos_gray">#888</color>
+    <string name="daidalos_select">Select</string>
+    <string name="daidalos_cancel">Cancel</string>
+    <string name="daidalos_ok">OK</string>
+    <string name="daidalos_new_file">New</string>
+    <string name="daidalos_create_file">Create file</string>
+    <string name="daidalos_create_folder">Create folder</string>
+    <string name="daidalos_accept">Accept</string>
+    <string name="daidalos_enter_file_name">Enter the name of the file that you want to create</string>
+    <string name="daidalos_enter_folder_name">Enter the name of the folder that you want to create</string>
+    <string name="daidalos_yes">Yes</string>
+    <string name="daidalos_no">No</string>
+    <string name="daidalos_confirm_select_file">Are you sure that you want to select the file \'$file_name\'?</string>
+    <string name="daidalos_confirm_create_file">The file \'$file_name\' do not exists, are you sure that you want to create it?</string>
+    <string name="daidalos_confirm_select_folder">Are you sure that you want to select the folder \'$file_name\'?</string>
+    <string name="daidalos_confirm_create_folder">The folder \'$file_name\' do not exists, are you sure that you want to create it?</string>
+
+
+        <!-- Performance Settings -->
+    <string name="performance_title">性能</string>
+    <string name="pref_performance_title_head">性能</string>
+        <!-- Performance >> MemoryManagement -->
+    <string name="pref_memory_management_title">内存管理</string>
+    <string name="pref_memory_management_summary">自定义内存使用以改变系统性能</string>
+    <string name="pref_zram_title">zRam</string>
+    <string name="pref_zram_summary">压缩内存以增加虚拟容量 (需要重启)</string>
+    <string name="pref_ksm_title">KSM</string>
+    <string name="pref_ksm_summary">KSM 降低系统对内存的要求并提高性能</string>
+        <!-- Performance >> Processor -->
+    <string name="processor_title">处理器</string>
+    <string name="pref_processor_title">处理器</string>
+    <string name="pref_processor_summary">更改 CPU 调节器以及时钟速度</string>
+    <string name="pref_cpu_cur_freq_title">当前 CPU 频率</string>
+    <string name="pref_cpu_governors_title">CPU 调节器</string>
+    <string name="pref_cpu_governors_summary">%S</string>
+    <string name="pref_cpu_min_freq_title">最低 CPU 频率</string>
+    <string name="pref_cpu_min_freq_summary">%s</string>
+    <string name="pref_cpu_max_freq_title">最高 CPU 频率</string>
+    <string name="pref_cpu_max_freq_summary">%s</string>
+    <string name="pref_cpu_set_on_boot">启动时设置</string>
+    <string name="pref_cpu_set_on_boot_summary">在启动时恢复当前的 CPU 设置</string>
+
+</resources>
